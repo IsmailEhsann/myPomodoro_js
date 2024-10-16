@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+/* Should make an anime theme/Deku version */
+/* Or create and design a workspace for pomodoro and favourite spotify songs etc with a to do list - the 3 things any productive man needs*/
+
+body { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #222222; 
+    flex-direction: column;
+}
+
+h1 {
+    padding: 10px;
+}
+  
+.main { 
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.595);
+
+
+    padding: 20px 20px;
+    transition: transform 0.2s;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+} 
+  
+.timer-circle { 
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 25px; 
+    color: white; 
+    border: 8px solid #FFC000; 
+} 
+  
+.control-buttons { 
+    margin-top: 75px; 
+    display: flex; 
+    flex-direction: column;
+    /* justify-content: space-evenly;  */
+} 
+  
+.control-buttons button {
+    margin: 5px;
+    padding: 10px;
+
+    background-color: #FFC000;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+  
+.control-buttons button:hover { 
+    background-color: #BA8E23;
+    transition: background-color 0.3s;
+}
